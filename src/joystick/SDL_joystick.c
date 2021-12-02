@@ -1971,6 +1971,9 @@ SDL_GetJoystickGameControllerType(const char *name, Uint16 vendor, Uint16 produc
             case k_eControllerType_PS5Controller:
                 type = SDL_CONTROLLER_TYPE_PS5;
                 break;
+            case k_eControllerType_WiiController:
+                type = SDL_CONTROLLER_TYPE_NINTENDO_WII;
+                break;
             case k_eControllerType_SwitchProController:
             case k_eControllerType_SwitchInputOnlyController:
                 type = SDL_CONTROLLER_TYPE_NINTENDO_SWITCH_PRO;
